@@ -1,2 +1,1 @@
-print("a,b,,c".split(","))
-print("-".join(["a", "b", "c"]))
+print(list(zip([1, 2, 3], ["a", "b"])))
