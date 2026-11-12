@@ -1,5 +1,8 @@
-print({1, 2, 3} & {2, 3, 4})
-print({1, 2, 3} - {2, 3, 4})
+from collections import Counter, defaultdict, deque
 
-print(type({}), type({1}))
-s = {[1, 2], 3}
+a = {"a":2 , "b":1}
+
+word = "ababa" 
+
+for ch in word:
+    print()  
