@@ -1,4 +1,12 @@
-stock = [7, 1, 5, 3, 6, 4]
+def reverse_in_place(nums):
+    left = 0
+    right = len(nums) - 1
+    while left < right:
+        nums[left], nums[right] = nums[right], nums[left]
+        left += 1
+        right -= 1
+        print(nums)
 
-for i in stock:
-    print(stock[i])
+for case in [[1, 2, 3, 4, 5], [1, 2, 3, 4], [7], []]:
+    reverse_in_place(case)
+    print(case)
